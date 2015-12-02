@@ -1,0 +1,80 @@
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover{
+	color: #fff;
+	background-color: #A30936;
+}
+.historia{
+	margin: 10px 5px 0px 20px;
+	padding: 5px 20px;
+	background-color: #DDD7CB;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.mision-imp{
+	margin: 10px 10px 0px 20px;
+	padding: 5px 20px;
+	background-color: #A30936;
+	color: #fff;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.vision-imp{
+	margin: 10px 10px 0px 20px;
+	padding: 5px 20px;
+	background-color: #DDD7CB;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.principios-imp{
+	margin: 10px 10px 40px 20px;
+	padding: 5px 20px;
+	background-color: #A30936;
+	color: #fff;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.ins{
+	background: url(../images/unsa1.jpg);
+	background-size: 100% 50%;
+}
+.btn-up {
+	position: fixed;
+	bottom: 202px;
+	right: 30px;
+	border-radius: 50%;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #A30936;
+    border-color: #A30936;
+    transition: all 1s;
+}
+.btn-primary:hover,
+.btn-primary:focus{
+	color: #A30936;
+	background-color: #FFFFFF;
+	border-color: #A30936;
+}
+
+.footer{
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color :#EFECE7;
+	border: 1px solid #DDD7CB;
+	background-color: #202121;
+}
+.footer li{
+	display: inline-block;
+	margin: 2%;
+}
+.footer p{
+	text-align: center;
+}
+

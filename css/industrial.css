@@ -1,0 +1,74 @@
+/********industrial****/
+.container-carrera-top{
+	background: url(../images/industrial4.jpg) no-repeat center;
+	background-size: cover;
+	height: 300px;
+	padding: 50px 0;
+	position: relative;
+}
+.container-carrera-top .carrera{
+    background-color: rgba(153, 9, 54, 0.56);
+    color: white;
+    width: 270px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    padding: 20px 0px 20px 35px;
+}
+.container-carrera-top .carrera h2{
+	margin-top: 5px;
+	text-align: justify;
+}
+.content-description{
+	padding: 15px;
+	background-color: #fff;
+}
+/**********introduccion****/
+.introduccion{
+	padding: 20px;
+}
+.pestana{
+	margin-top: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 15px;
+}
+/********objetivos*****/
+.nav-tabs>li>a,
+.nav-tabs>li>a:focus,
+.nav-tabs>li>a:hover{
+	background-color: #ED9819;
+	color: #fff;
+}
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover{
+	background-color: #A30936;
+	color: #fff;
+}
+/****formulario***/
+.form-solicitud{
+	background-color: #A30936;
+	padding: 20px;
+	color: #fff;	
+}
+.form-solicitud legend{ 
+	color: #fff;
+	text-align: center;
+}
+.form-control{
+	width: 80%;	
+}
+.btn-warning{
+	margin-left: 0;
+}
+.formulario{
+	text-align: center;
+}
+.boton{
+	margin-left: 10%;
+}
+.form-horizontal .form-group {
+margin-right: 0;
+margin-left: 0;
+}
+	

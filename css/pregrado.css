@@ -1,0 +1,56 @@
+/**{outline: 1px solid red;
+}*/
+/********industrial****/
+
+.container-carrera-top{
+	background: url(../images/industrial1.jpg) no-repeat center;
+	background-size: cover;
+	height: 300px;
+	padding: 50px 0;
+	position: relative;
+}
+.container-carrera-top .carrera{
+	/*background-color: rgba(255,255,255,0.06);
+	border-color: rgba(255,255,255,0.1);
+	color: #fff;
+	width: 300px;
+	height: 200px;*/
+    background-color: rgba(153, 9, 54, 0.56);
+    color: white;
+    width: 270px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    padding: 0 20px;
+
+}
+.container-carrera-top .carrera h2{
+	margin-top: 5px;
+	text-align: left;
+}
+.content-description{
+	padding: 15px;
+	background-color: #fff;
+}
+/********objetivos*****/
+.nav-tabs>li>a,
+.nav-tabs>li>a:focus,
+.nav-tabs>li>a:hover{
+	background-color: #ED9819;
+	color: #fff;
+}
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover{
+	background-color: #A30936;
+	color: #fff;
+}
+/****formulario***/
+.form-solicitud{
+	background-color: #A30936;
+	padding: 15px;
+	color: #fff;
+}
+.form-solicitud legend{ 
+	color: #fff;
+}

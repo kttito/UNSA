@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>UNSA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/autoridades.css"> 
+  <link rel='stylesheet' id='theme-font-Roboto-css'  href='http://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,700,700italic&#038;subset=latin,latin-ext,cyrillic,cyrillic-ext' type='text/css' media='all' />
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:600' rel='stylesheet' type='text/css'>
+<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+
+  <script src="js/jquery-scrolltofixed.js" type="text/javascript"></script>
+
+  <script>
+   $(document).ready(function(){
+  var altura = $('.menu').offset().top;
+  
+  $(window).on('scroll', function(){
+    if ( $(window).scrollTop() > altura ){
+      $('.menu').addClass('menu-fixed');
+    } else {
+      $('.menu').removeClass('menu-fixed');
+    }
+  });
+ 
+});
+</script>
+<script>
+   $(document).ready(function(){
+  var altura = $('.panels').offset().top;
+  
+  $(window).on('scroll', function(){
+    if ( $(window).scrollTop() > altura ){
+      $('.panels').addClass('panels-fixed');
+    } else {
+      $('.panels').removeClass('panels-fixed');
+    }
+  });
+ 
+});
+</script>
+</head>
+<body>
+  
+  <header class="header">
+    <div class="login">
+      <div class="container">
+        <div class="row col">
+          <div class="col-md-6">
+            <div class="logo pull-left">
+              <img src="images/fondo-corregido1.png" alt="logo_unsa" style="width: 245px; height: 58px;">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <form class="form-inline pull-right hidden-xs hidden-sm">
+              <div class="form-group">
+                <label class="sr-only" for="exampleInputEmail3">Usuario</label>
+                <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="exampleInputPassword3">Contraseña</label>
+                <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+              </div>
+              <button type="button" class="btn btn-primary">Entrar</button>
+            </form>
+            <a href="#" class="btn btn-primary pull-right hidden-md hidden-lg">Login</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container menu">
+      <nav class="navbar navbar-default ">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+        
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="institucion.html">Institución</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pregrado <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="industrial.html">Ingeniería Industrial</a></li>
+                  <li><a href="mecanica.html">Ingeniería Mecánica</a></li>
+                  <li><a href="electrica.html">Ingeniería Eléctrica</a></li>
+                  <li><a href="electronica.html">Ingeniería Electrónica</a></li>
+                  <li><a href="sistemas.html">Ingeniería de Sistemas</a></li>
+                  <li><a href="computacion.html">Ciencia de la Computación</a></li>
+                </ul>
+              </li>
+              <li class="active"><a href="autoridad.html">Autoridades</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </div>
+  </header>
+
+<div class="container">
+    <div class="lado col-xs-3 ">
+         
+     
+       <nav class="bs-docs-sidebar hidden-print hidden-xs col-sm-3 affix panels">
+            <ul class="nav bs-docs-sidenav  nav-pills nav-stacked">
+        
+            <li><a href="autoridad.html" type="button" class="btn btn-primary  btn-block btm-sm panel" >Rector</a></li>
+            <li><a href="academico.html" type="button" class="btn btn-primary  btn-block panel btn-sm" >Vicerrector Académico</a></li>
+            <li><a href="administrativo.html" type="button" class="btn btn-primary  btn-block btn-sm panel" >Vicerrector Administrativo</a></li>
+            
+          </ul>
+    
+      <div class="direccion hidden-sm hidden-xs"><h4>Facultad de Producción y Servicios</h4>
+      <ul>
+        <li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Av. Independencia S/N Cercado - Arequipa</li>
+        <li><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> +51 054 282700</li>
+        <li><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> +51 054 285298</li>
+      </ul>
+    </div>
+  
+  </nav>
+      
+  </div>
+		<div class="decano1 col-md-9">
+	
+    	<h1>Vicerrector Académico</h1>
+			<div class="col-md-3 foto"><img src="images/howard.jpg"/></div>
+			<div class="col-md-9 contenido">
+			<h2>Dr. Howard Pinto Arana</h2>
+			<h4>Estudios</h4>
+			<ul>
+				<li>Estudios Primarios en el Instituto Experimental Nro. 5 del Cercado</li>
+				<li>Estudios Secundarios en el Colegio Nacional de Independencia Americana</li>
+				</ul>
+				<h4>Grados y títulos</h4>
+				<ul>
+					<li>Estudios Superiores de Ingeniero Agrónomo en la Universidad Nacional del Altiplano</li> 
+          <li>Grado de Magister en Marketing en la Universidad Nacional de San Agustín </li>
+          <li>Grado de Doctor en Ingenieria de Producción aprobado por unanimidad</li>	
+				</ul>	
+				
+       <h4>Cargos desempeñados</h4>
+				<ul>
+					<li>Director de la Escuela Profesional de Agronomía en dos periodos 1993-1995 / 1995-1997</li>
+ 					<li>Decano de la Facultad de Ciencias Biológicas y Agropecuarias 2008-2011</li>
+ 					<li>Jefe de la Oficina Universitaria de Producción de Bienes y Servicios UNSA 2004-2008</li>
+          <li>Jefe del Instituto del Deporte Universitario 2010-2012 </li>
+          <li>Coordinador Académico del Ceprunsa 2012-2014</li>
+ 					<li>Presidente de Comisiones Temporales y Permanentes de la UNSA </li>
+				</ul>
+				<h4>Investigaciones Realizadas</h4>
+				<ul>
+					<li>Ganador del Concurso Nacional con el Proyecto 248-2008 del CONCYTEC</li>
+					<li>Ganador del Concurso Nacional con el Proyecto 277-2009 del CONCYTEC</li>
+				</ul>
+			
+	</div>
+</div>
+</div>
+	<div class="footer">
+      <li><a href="http://www.facebook.com"><img src="images/facebook@2x.png"></a></li>
+      <li><a href="http://www.google.com"><img src="images/goggle@2x.png"></a></li>
+      <li><a href="http://www.twitter.com"><img src="images/twitter@2x.png"></a></li>
+		<p>Av. Independencia S/N Cercado - Arequipa 
+Fono: +51 054 282700 +51 054 285298</p>
+</div>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
